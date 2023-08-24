@@ -29,7 +29,7 @@ function randomizeHero(role){
     ]
 
     if(role == "dps"){
-        result = getRandomInt(16);
+        result = getRandomInt(17);
         console.log(dpsList[result]);
         dpsImage.src = "dps/"+result+".png";
         dpsButton.textContent = dpsList[result];

@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.randomizer-box{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px 100px 0px;
+    background-color: #FC9D1F;
+    justify-content: center;
+    width: 100vw;
+}
+
+.full-pane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.button-section{
+    padding-top: 25px;
+}
+
+.random-button{
+    size: 100px;
+}

@@ -9,39 +9,53 @@
 </head>
 <body>
 
-<h1>Overwatch Randomizer</h1>
-<h2>Rules:</h2>
-<H3>Random Characters can only be swapped once Ultimate has been used.</H3>
+<div class="navbar">
 
 
-<div class="content">
-    <div class="tank-col">
+</div>
+
+
+<div class="title-section">
+    <h1>Overwatch Randomizer</h1>
+</div>
+
+
+
+<div class="randomizer-box">
+    <div class="tank-col full-pane">
         <div class="tank-pane">
             <img class="character-image tank-image" src="question-mark.png" alt="">
         </div>
-        <div class="tank-button-section">
-            <button class="tank-button" onclick="randomizeHero('tank')">Random Tank</button>
+        <div class="tank-button-section button-section">
+            <button class="tank-button random-button" onclick="randomizeHero('tank')">Random Tank</button>
         </div>
-
     </div>
-    <div class="dps-col">
+    <div class="dps-col full-pane">
         <div class="dps-pane">
             <img class="character-image dps-image" src="question-mark.png" alt="">
         </div>
-        <div class="dps-button-section">
-            <button class="dps-button" onclick="randomizeHero('dps')">Random DPS</button>
+        <div class="dps-button-section button-section">
+            <button class="dps-button random-button" onclick="randomizeHero('dps')">Random DPS</button>
         </div>
 
     </div>
-    <div class="heal-col">
+    <div class="heal-col full-pane">
         <div class="heal-pane">
             <img class="character-image heal-image" src="question-mark.png" alt="">
         </div>
-        <div class="heal-button-section">
-            <button class="heal-button" onclick="randomizeHero('heal')">Random Heal</button>
+        <div class="heal-button-section button-section">
+            <button class="heal-button random-button" onclick="randomizeHero('heal')">Random Heal</button>
         </div>
     </div>
 </div>
+
+
+<div class="rules-section">
+    <h2>Rules:</h2>
+    <h3>Random Characters can only be swapped once Ultimate has been used.</h3>
+</div>
+
+<div class="footer"></div>
 
 
 

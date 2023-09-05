@@ -8,6 +8,14 @@
 
 
 */
+h1{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    font-style: italic;
+    color: #ffffff;
+
+}
 
 body{
     display: flex;
@@ -34,6 +42,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 .button-section{
@@ -44,11 +53,14 @@ body{
     background-color: #4D4E53;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 16px 48px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
 }
 
 .character-image{
@@ -57,5 +69,22 @@ body{
     background-color: #4D4E53;
     fill: #4D4E53;
     border: 8px solid transparent;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+h2, h3{
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.rules-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

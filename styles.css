@@ -1,16 +1,29 @@
+/*
+
+#f99e1a	RGB(249, 158, 26)	So Sublime Orange	—
+#43484c	RGB(67, 72, 76)	Mahogany Finish	—
+#405275	RGB(64, 82, 117)	Early Dew Blue	—
+#fffffe	RGB(255, 255, 254)	Greenish Teal	—
+#000000	RGB(0, 0, 0)	Magic Blue
+
+
+*/
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
+    background-color: #405275;
 }
+
 
 .randomizer-box{
     display: flex;
     flex-direction: row;
     padding: 100px 0px 100px 0px;
-    background-color: #FC9D1F;
+    background-color: #f99e1a;
     justify-content: center;
     width: 100vw;
 }
@@ -28,5 +41,21 @@ body{
 }
 
 .random-button{
-    size: 100px;
+    background-color: #4D4E53;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.character-image{
+    height: 256px;
+    width: 256px;
+    background-color: #4D4E53;
+    fill: #4D4E53;
+    border: 8px solid transparent;
+    border-radius: 5px;
 }

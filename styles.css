@@ -12,37 +12,38 @@ h1{
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-size: 48px;
-    font-style: italic;
+    font-style: bold;
     color: #ffffff;
 
 }
 
 body{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
     background-color: #405275;
+    margin: 0px;
+
+}
+
+.title-section{
+    align-self: center;
 }
 
 
 .randomizer-box{
     display: flex;
     flex-direction: row;
-    padding: 100px 0px 100px 0px;
+    padding: 100px 100px 100px 100px;
     background-color: #f99e1a;
-    justify-content: center;
-    width: 100vw;
+    justify-content: space-around;
+
 }
 
 .full-pane{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .button-section{
@@ -69,7 +70,7 @@ body{
     background-color: #4D4E53;
     fill: #4D4E53;
     border: 8px solid transparent;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 h2, h3{
